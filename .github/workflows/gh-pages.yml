@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '20'
 
-      - run: ynpm run deploy
+      - run: npm run deploy
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
